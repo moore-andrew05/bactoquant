@@ -1,0 +1,31 @@
+Channels:
+
+1 - Control, non-symmetric RNA.
+2 - erm1
+3 - MTs
+4 - DAPI
+
+Larger cell is anterior, place on left. 
+
+
+*--*
+
+Workflow:
+
+IN FIJI:
+Rotate embryo so that anterior cell is on left -> Save as tiff.
+
+IN PYTHON:
+Open Image, max project, and crop horizontal (and maybe vertical) background.
+Save cropped tiff for visualization. 
+
+Collapse vertical axis of embryo into 1d vector representing sum of values in each column. 
+Interpolate vectors to common length, also need to make note of micron conversion.
+
+VISUALIZATION:
+Line graph with one representative image, then some representation of the average of the group.
+Each should graph both Control and erm1 for ez comparison. 
+
+*--*
+
+
