@@ -29,3 +29,10 @@ Each should graph both Control and erm1 for ez comparison.
 *--*
 
 
+Treatment:
+25
+08
+
+Control:
+
+
